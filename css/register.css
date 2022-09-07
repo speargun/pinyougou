@@ -29,3 +29,85 @@
     margin: 50px auto 0;
 }
 
+.reg_form ul li {
+    margin-top: 20px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg_form ul li input {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.error {
+    color: #e12d2c;
+}
+
+.error_icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+}
+
+.correct {
+    color: #39ba36;
+}
+
+.correct_icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/correct.png) no-repeat;
+}
+
+.safe {
+    padding-left: 175px;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #ffffff;
+}
+
+.safe .weak {
+    background-color: #de1111;
+}
+
+.safe .middle {
+    background-color: #40b83f;
+}
+
+.safe .strong {
+    background-color: #f79100;
+}
+
+.agree a {
+    color: #01a0e9;
+}
+
+.agree input[type="checkbox"] {
+    vertical-align: middle;
+    margin-left: 88px;
+    width: 16px;
+    height: 15px;
+}
+
+input[type="submit"] {
+    margin: 30px 0 0 70px;
+    width: 200px;
+    height: 34px;
+    font-size: 14px;
+    background-color: #ca111a;
+    color: #ffffff;
+}

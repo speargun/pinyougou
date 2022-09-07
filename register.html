@@ -34,7 +34,44 @@
                 <div class="login">我有账户，去<a href="#" class="style_red">登陆</a></div>
             </h3>
             <div class="reg_form">
-
+                <form action="post">
+                    <ul>
+                        <li>
+                            <label for="phone">手机号：</label>
+                            <input type="text" id="phone">
+                            <i class="error_icon"></i>
+                            <span class="error">手机号码格式不正确，请重新输入</span>
+                        </li>
+                        <li>
+                            <label for="code">短信验证码：</label>
+                            <input type="text" id="code">
+                            <i class="correct_icon"></i>
+                            <span class="correct">短信验证码输入正确</span>
+                        </li>
+                        <li>
+                            <label for="pwd">登陆密码：</label>
+                            <input type="password" id="pwd">
+                            <i class="error_icon"></i>
+                            <span class="error">密码少于6位数，请重新输入</span>
+                        </li>
+                        <li class="safe">
+                            安全程度 <em class="weak">弱</em> <em class="middle">中</em> <em class="strong">强</em>
+                        </li>
+                        <li>
+                            <label for="confirm">确认密码：</label>
+                            <input type="password" id="confirm">
+                            <i class="error_icon"></i>
+                            <span class="error">密码少于6位数，请重新输入</span>
+                        </li>
+                        <li class="agree">
+                            <input type="checkbox" name="agree" id="agree" required><label for="agree">同意协议并注册</label>
+                            <a href="#">《知晓用户协议》</a>
+                        </li>
+                        <li>
+                            <input type="submit" value="完成注册">
+                        </li>
+                    </ul>
+                </form>
             </div>
         </section>
         <!--注册部分end-->
