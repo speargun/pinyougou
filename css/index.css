@@ -9,8 +9,72 @@
 /* 焦点图 */
 .focus {
     float: left;
+    position: relative;
     width: 721px;
     height: 455px;
+    overflow: hidden;
+}
+
+.focus ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 600%;
+    z-index: 9;
+}
+
+.focus img {
+    width: 721px;
+    height: 455px;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 18px;
+    z-index: 99;
+}
+
+.arrow-l {
+    left: 0;
+}
+
+.arrow-r {
+    right: 0;
+}
+
+.focus ol {
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+    z-index: 99;
+}
+
+.focus ol li {
+    float: left;
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.current {
+    background-color: #fff;
 }
 
 /* 新闻快报 */
